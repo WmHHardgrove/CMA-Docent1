@@ -1,0 +1,292 @@
+p {
+  font-size: 1.25rem;
+}
+
+ul {
+  font-size: 1.25rem;
+}
+body {
+  background-color: #FAF9F6;
+}
+main {
+  background-color: #FAF9F6;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icon {
+  max-width: 48px;
+  padding: 0.3rem;
+}
+
+
+.header1 {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+
+.header2 { 
+  background-color: #FAF9F6;
+}
+
+.navBtn {
+  border: none;
+  padding: 0.3rem; 
+  font-size: 2rem;
+}
+
+.btn {
+  background-color: #FAF9F6;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+.card {
+  padding: 0.3rem;
+  overflow: visible;
+  width: 100%;
+  background-color: #FAF9F6;
+}
+
+.postPage {
+  margin: 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.postCard {
+  width: 80%;
+}
+
+.eventCard {
+  display: flex;
+  width: 40%;
+}
+
+.outlineCard {
+  display: flex;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: antiquewhite;
+}
+
+.missionStatement {
+  background-color: antiquewhite;
+}
+
+.card {
+  border-radius: 0px;
+  padding: 1rem;
+  margin: 4px;
+}
+
+textarea {
+  height: 10rem;
+  scroll-behavior: auto;
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  padding: 4px;
+}
+
+input {
+  padding: 4px;
+  margin: 4px;
+}
+
+.signupHeader {
+  background-color: antiquewhite;
+}
+
+.signupPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupCenter {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+
+}
+
+.allEvents {
+  display: flex;
+  flex-direction: row;
+  width: 10 1rem;
+ 
+  background-color: none;
+  margin: 2%;
+}
+
+.event1,
+.event2,
+.event3 {
+  display: flex;
+  flex-direction: column;
+  background-color: none;
+  height: 28%;
+  width: 90%;
+  margin: 3%;
+  align-items: center;
+  border: solid 1px;
+}
+
+.eventColumn1 {
+  width: 50%;
+  height: 95%;
+  background-color: none;
+  margin: 1%;
+}
+
+.eventColumn2 {
+  width: 50%;
+  height: 95%;
+  background-color: none;
+  margin: 1%;
+}
+
+.pageSelector {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: -4.5%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.page,.pageNumber {
+  margin-left: -1.7%;
+}
+.page {
+  font-size: 150%;
+}
+
+.pageNumber {
+  margin-top: 0.5%;
+  font-size: 200%;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4px;
+  width: 100%
+}
+
+.signupCenter .card {
+  width: 100%;
+}
+
+.carousel {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  object-fit: contain;
+}
+
+.backgroundImg {
+  background: url(./assets/images/cma.jpg) no-repeat center center fixed;
+background-size: cover;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+
+  body {
+    font-size: 80%;
+  }
+  
+  .card {
+    width: 100%;
+  }
+
+  .outlineCard {
+    width: 100%;
+  }
+  .postCard {
+    width: 100%;
+    
+  }
+
+  .postPage {
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .date {
+    font-size: 0.75rem;
+  }
+}
